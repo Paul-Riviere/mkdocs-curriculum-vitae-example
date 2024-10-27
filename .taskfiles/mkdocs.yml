@@ -11,3 +11,9 @@ tasks:
     desc: Run mkdocs serve command
     cmds:
       - .venv/bin/mkdocs serve
+
+  update-configuration:
+    desc: Update mkdocs.yml file, using the repo's test file
+    cmds:
+      - rm -f mkdocs.yml
+      - wget https://github.com/Paul-Riviere/mkdocs-curriculum-vitae/raw/refs/heads/main/tests/fixtures/test_doc/mkdocs.yml

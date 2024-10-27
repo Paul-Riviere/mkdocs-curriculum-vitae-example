@@ -1,1 +1,2 @@
 mkdocs>=1.5.3
+mkdocs-curriculum-vitae>=0.1.3
